@@ -1,0 +1,112 @@
+body {
+	background: #F7F9FC;
+	color: #575F7D;
+	font-size: 18px;
+	font-family: Lora;
+}
+
+h1, h2, a {
+	font-family: Roboto;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2 {
+	color: #30e3ca;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 700;
+	
+}
+
+
+/* custom design */
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card {
+	background-color: white;
+	padding: 40px;
+	text-align: center;
+	margin: 30px 0px;
+	border-radius: 10px;
+	box-shadow: 0px 10px 30px rgba(84,134,255,0.1);
+}
+
+
+
+
+
+
+}
+
+
+.avatar {
+	border-radius: 50%;
+	width: 120px;
+}
+
+.btn-purple {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	font-size: 16px;
+}
+
+.btn-purple:hover {
+	background-color: #30e3ca;
+}
+
+.list-inline {
+	padding: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	margin-right: 10px;
+}
+
+.list-inline i {
+	color: lightgrey;
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#intro p {
+	margin-bottom: 40px;
+
+}
+
+/* Responsive */
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 700px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
